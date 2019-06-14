@@ -306,7 +306,15 @@ a:hover {
 .nav-menu a:hover,
 .nav-menu li:hover>a,
 .nav-menu .menu-active>a {
-    color: rgba(255, 255, 255, 0.75);
+    color: white;
+}
+
+#nav-menu-container ul li.active {
+    border-bottom: 3px solid white;
+}
+
+#nav-menu-container ul li.active a {
+    font-weight: bold;
 }
 
 .nav-menu ul {
@@ -515,6 +523,16 @@ body.mobile-nav-active #mobile-nav-toggle {
 .block p {
     color: #fff;
     margin-bottom: 45px;
+}
+
+.about {
+    padding-top: 40px;
+}
+
+.about h2 {
+    text-align: center;
+    font-weight: bold;
+    color: #e61c37;
 }
 
 /* ==================================================
@@ -997,6 +1015,10 @@ body.mobile-nav-active #mobile-nav-toggle {
     background: #e61c37;
 }
 
+.lidermania p {
+    color: white;
+}
+
 .lidermania h2 {
     margin-bottom: 20px;
     font-weight: bold;
@@ -1188,17 +1210,21 @@ body.mobile-nav-active #mobile-nav-toggle {
         background-repeat: no-repeat;
         height: auto;
     }
+
     .pilares__list,
     .pilares__content {
         width: 100%;
     }
+
     .lidermania__content .lidermania__item img {
-      width: 60%;
+        width: 60%;
     }
+
     .reconocimientos__content ul {
-      flex-flow: column wrap;
+        flex-flow: column wrap;
     }
+
     .reconocimientos__content ul li {
-      width: 100%;
+        width: 100%;
     }
 }

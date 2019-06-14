@@ -40,7 +40,12 @@
                             }
                         }
                     ]
-                })
+                });
+                $('#nav-menu-container').scrollspy({
+                    offset: -60,
+                    animate: true,
+                    nestedClass: "menu-active"
+                });
             }
         }
         me.Inicializar = function () {
