@@ -623,6 +623,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 .portfolio {
     background-color: #edf6ff;
     padding-bottom: 0;
+    padding-top: 90px;
 }
 
 .portfolio h2 {
@@ -907,7 +908,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .site-footer .bottom {
     background-color: #000;
-    padding: 20px 0;
+    padding: 60px 0;
 }
 
 .site-footer .bottom .list-inline,
@@ -1017,11 +1018,17 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .lidermania p {
     color: white;
+    margin-bottom: 0;
 }
 
 .lidermania h2 {
     margin-bottom: 20px;
     font-weight: bold;
+}
+
+.lidermania__container img {
+    display: block;
+    margin: 0 auto;
 }
 
 .lidermania__container ul {
@@ -1104,6 +1111,12 @@ body.mobile-nav-active #mobile-nav-toggle {
 .reconocimientos__content ul li img {
     width: 100%;
 }
+
+.reconocimientos {
+    padding-bottom: 0;
+}
+
+/* Vida Liderman */
 
 /* ==================================================
   Responsive Styling
